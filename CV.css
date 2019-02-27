@@ -14,6 +14,7 @@ body{
 }
 
 .Tim-Resume{
+	position: fixed;
 	float:left;
 	padding-top:15px;
 	padding-left: 20px;
@@ -70,6 +71,38 @@ li:hover{
 	background-color:#7FFFFF;
 }
 
+.Project img{
+	width: 100%;
+	position: relative;
+}
+
+
+.Project ul{
+	position: absolute;
+	list-style:none;
+	float:left;
+	font-family: sans-serif;
+	top: 100px;
+	display:inline-block;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:20px;
+	padding-left:20px;
+	
+}
+
+.Project li{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,05151c+0,6aa59e+100 */
+	background: rgb(30,87,20); /* Old browsers */
+	background: -moz-linear-gradient(45deg, rgba(30,87,20,1) 0%, rgba(5,21,28,1) 0%, rgba(106,165,20,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, rgba(30,87,20,1) 0%,rgba(5,21,28,1) 0%,rgba(106,165,210,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, rgba(30,87,20,1) 0%,rgba(5,21,28,1) 0%,rgba(106,165,158,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#6aa59e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
 .top{
 	background-color:#1F2444;
 	height:60px;
@@ -96,7 +129,8 @@ li:hover{
 }
 
 .Resume_1{
-	background-image: url("image/Resume.jpg")
+	background-image: url("image/Resume.jpg");
+	background-size: cover;
 
 }
 
@@ -120,8 +154,58 @@ li:hover{
 	padding:10px;
 }
 
+.autobiography_frame_1 img{
+	position: relative;
+	display:block;
+	width: 100%;
+	
+	
+}
+.autobiography_frame_1 h2{
 
+	position:absolute;
+	box-sizing: border-box;
+	top:100px;
+	color: #211C1C;
+	font-family: sans-serif;
+	padding-left: 50px;
+}
 
+.first{
+	position:absolute;
+	box-sizing: border-box;
+	top:200px;
+	color: #211C1C;
+	font-family: sans-serif;
+	padding-left: 50px;
+}
+
+.second{
+	position:absolute;
+	box-sizing: border-box;
+	top:350px;
+	color: #211C1C;
+	font-family: sans-serif;
+	padding-left: 50px;
+}
+
+.third{
+	position:absolute;
+	box-sizing: border-box;
+	top:500px;
+	color: #211C1C;
+	font-family: sans-serif;
+	padding-left: 50px;
+}
+
+.end{
+	position:absolute;
+	box-sizing: border-box;
+	top:630px;
+	color: #211C1C;
+	font-family: sans-serif;
+	padding-left: 50px;
+}
 
 #bgred{
 	background-color:#C0C0C0;
@@ -252,60 +336,51 @@ img{
 	color:#FFFFFF;
 }
 
-th{
-	border-style:solid;
-	border-color: #000000;
-	border-width:1px; 
+.div-table-img img{
+	width: 100%;
+	position: relative;
 }
 
-td{
-	border-style:solid;
-	border-color: #000000;
-	border-width:1px; 
-}
 
-tr:nth-child(odd){
-	background-color:#15C4E9;
-}
 
-tr:nth-child(odd):hover{
-	background-color:#2E6FD0;
-}
-
-tr:nth-child(even){
-	background-color:#181AE6;
-}
-
-tr:nth-child(even):hover{
-	background-color:#312DD1;
+.Education_1{
+	display: table;
+	margin: 0px;
+	padding: 0px;
+	width:100%;
+	font-size:25px;
+	text-align:center;
 }
 
 .div-table{
-	display:table;
-	border-style:solid;
-	border-color: #000000;
-	border-width:1px;
-	width:100%;
-	height:500px;
-	line-height: 100px;
+	position: absolute;
+	top: 100px;
+	padding-left: 50px;
 }
 
 .table-tr:nth-child(odd){
 	display:table-row;
 	background-color:#6DA2B8; 
+	
 }
 
 .table-tr:nth-child(even){
 	display:table-row;
 	background-color:#7F92FF; 
+
 }
 
+
+
 .table-td{
+	
+	
 	display:table-cell;
 	border-style:solid;
 	border-color: #000000;
 	border-width:1px;
 }
+
 
 .contact-table{
 	display:table;
